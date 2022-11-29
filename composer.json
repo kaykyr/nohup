@@ -1,5 +1,5 @@
 {
-    "name": "nextpost-tech/nohup",
+    "name": "kaykyr/nohup",
     "description": "A library to run a command in the background, it will return the process's pid, and get it's is running status anytime in the another process, and can be stoped anytime.",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nextposttech\\nohup\\": "src/"
+            "kaykyr\\nohup\\": "src/"
         }
     }
 }
