@@ -5,7 +5,7 @@
  * @author Nextpost.tech (https://nextpost.tech)
  */
 
-namespace nextposttech\nohup;
+namespace kaykyr\nohup;
 
 class Command
 {

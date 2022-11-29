@@ -5,9 +5,9 @@
  * @author Nextpost.tech (https://nextpost.tech)
  */
 
-namespace nextposttech\nohup;
+namespace kaykyr\nohup;
 
-use nextposttech\nohup\exceptions\RuntimeException;
+use kaykyr\nohup\exceptions\RuntimeException;
 
 class Nohup
 {

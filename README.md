@@ -22,7 +22,7 @@ composer require nextpost-tech/nohup
 ## Run a script in background
 
 ```php
-use nextposttech\nohup;
+use kaykyr\nohup;
 
 $process = Nohup::run('sleep 5');
 ```
@@ -42,7 +42,7 @@ Get the pid : `$process->getPid()`, it will return the real pid in both window a
 Get it's running status with the function `$process->isRunning()`:
 
 ```php
-use nextposttech\nohup\Nohup;
+use kaykyr\nohup\Nohup;
 
 $process = Nohup::run('sleep 5');
 while ($process->isRunning()) {
@@ -57,7 +57,7 @@ echo "Done.\n";
 ## Create process from known pid ($pid)
 
 ```php
-use nextposttech\nohup\Process;
+use kaykyr\nohup\Process;
 
 $process = Process::loadFromPid($pid);  
 // or

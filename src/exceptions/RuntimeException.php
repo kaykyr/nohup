@@ -5,7 +5,7 @@
  * @author Nextpost.tech (https://nextpost.tech)
  */
 
-namespace nextposttech\nohup\exceptions;
+namespace kaykyr\nohup\exceptions;
 
 class RuntimeException extends \Exception
 {
